@@ -19,16 +19,16 @@ And edit pom.xml:
 
 1) Remove the mysql dependency:
 	
-	<dependency>
-		<groupId>mysql</groupId>
-		<artifactId>mysql-connector-java</artifactId>
-		<scope>runtime</scope>
-	</dependency> add the following dlines to pom.xml
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency> add the following dlines to pom.xml
 
 2) Add postgresql dependency:
 
-	<dependency>
-		<groupId>org.postgresql</groupId>
-		<artifactId>postgresql</artifactId>
-		<scope>runtime</scope>
-	</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
