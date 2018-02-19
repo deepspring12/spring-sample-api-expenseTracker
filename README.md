@@ -1,6 +1,6 @@
 # ExpenseTracker - SpringBoot Sample Api
 
-### Description: Api to track of items purchased by tags.
+### Description: Api to track purchase of items organized by tags.
 
 This api persists data to Mysql Database.
 To use Postgresql Database, simply modify the application.properties file to the following:
